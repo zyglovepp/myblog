@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"  />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="renderer" content="webkit" />
+    <title>我的文章分享_首页</title>
+    <meta name="keywords" content="zyg的博客">
+    <meta name="description" content="zyg的博客">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/base.js" type="text/javascript"></script>
+    <script src="js/jquery.slides.min.js" type="text/javascript"></script>
+    <style>
+        .content{
+            position: relative;
+            background: center/50% url(img/langqian/shanlangwenhai.jpg) no-repeat;
+            background-attachment: fixed;
+
+            z-index: 1;
+        }
+        .sx{
+            
+            float:left;
+            /* margin-top: 30px; */
+            width: 10px;
+            height: 3000px;
+            background: darkgray;
+            margin-left: 780px;
+        }
+        .photo div img{
+            position: absolute;
+            float: left;
+            
+            height: 200px;
+            width: 180px;
+            z-index: 9;
+        }
+        #xiaobu{
+            top: 20px;
+            left: 300px;
+        }
+        #xiaoyu{
+            top: 20px;
+            right: 300px;
+        }
+        #ashun{
+            top: 340px;
+            left: 300px;
+        }
+        #yanjing{
+            top: 340px;
+            right: 300px;
+        }
+        #hu{
+            top: 660px;
+            left: 300px;
+        }
+        #hanmuyu{
+            top: 660px;
+            right: 300px;
+        }
+        #zhangyuge{
+            top: 980px;
+            left: 300px;
+        }
+        #qiutong{
+            top: 980px;
+            right: 300px;
+        }
+        #linmuzhong{
+            top: 1300px;
+            left: 300px;
+        }
+        #nana{
+            top: 1300px;
+            right: 300px;
+        }
+        #jiayouxiaozi{
+            top: 1620px;
+            left: 300px;
+        }
+        #bin{
+            top: 1620px;
+            right: 300px;
+        }
+        #cob{
+            top: 1940px;
+            left: 300px;
+        }
+        #xiaojia{
+            top:1940px;
+            right: 300px;
+
+        }
+        #panpan{
+            top: 2260px;
+            left: 300px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+<div class="head_box">
+    <div class="header">
+        <div class="header_logo">
+            <a href="index.html"><h2>zygの博客|</h2></a>
+        </div>
+        <div class="header_nav">
+            <ul class="clearfix">
+                <li><a href="photo.html">照片</a></li>
+                <li class="have_second">
+                    <a href="list.html">视频</a>
+                    <ul class="nav_second">
+                        <li><a href="#">B站视频</a></li>
+                    </ul>
+                </li>
+                <li class="have_second">
+                    <a href="list.html">文章</a>
+                    <ul class="nav_second">
+                        <i></i>
+                        <li><a href="list.html">habitica改变人生</a></li>
+                        <li><a href="list.html">大学生活</a></li>
+                        <li><a href="list.html">游戏化高考攻略</a></li>
+                    </ul>
+                </li>
+                <li class="have_second">
+                    <a href="list.html">故事</a>
+                    <ul class="nav_second">
+                        <i></i>
+                        <li><a href="story_langqian.html">浪前</a></li>
+                    </ul>
+                </li>
+                <li><a href="about_me.html">关于我</a></li>
+            </ul>
+        </div>
+        <div class="header_search">
+            <a href="javascript:void(0);" class="header_search_btn">
+                <!--<img src="img/search.png">-->
+                <i></i>
+            </a>
+        </div>
+
+        <div class="header_nav_small_btn">
+            <span class="small_btn"></span>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="nav_hidden_zhanwei"></div>
+
+<div class="search_box">
+    <div class="search">
+
+    <form name="searchform" class="search_form" method="post" action="[!--news.url--]e/search/index.php" target="_blank">
+        <input type="text" class="search_text" name="keyboard" placeholder="输入关键字点击搜索">
+        <input type="hidden" name="tbname" value="news">
+        <input type="hidden" name="show" value="title,smalltext">
+        <input type="hidden" name="tempid" value="1">
+        <input type="hidden" name="classid" value="1,4,9">
+        <input type="submit" class="search_btn" value="搜索一下">
+    </form>
+
+    </div>
+
+</div>
+<!-- 中间内容 -->
+<div class="content clearfix">
+    <!-- 竖线 -->
+    <div class="sx"></div>
+    <!-- 照片墙 -->
+    <div class="photo">
+        <div><img id="xiaobu" src="img/langqian/xiaobu(touxiang).png" alt=""></div>
+        <div><img src="img/langqian/ashun(touxiang).png" alt="" id="ashun"></div>
+        <div><img src="img/langqian/xiaoyu(touxiang).png" alt="" id="xiaoyu"></div>
+        <div><img src="img/langqian/yanjing(zhenren).jpg" alt="" id="yanjing"></div>
+        <div><img src="img/langqian/hu(zhenren).jpg" alt="" id="hu"></div>
+        <div><img src="img/langqian/hanmuyu(zhenren).jpg" alt="" id="hanmuyu"></div>
+        <div><img src="img/langqian/zhangyuge(zhenren).jpg" alt="" id="zhangyuge"></div>
+        <div><img src="img/langqian/qiutong(zhenren).jpg" alt="" id="qiutong"></div>
+        <div><img src="img/langqian/linmuzhong(zhenren).jpg" alt="" id="linmuzhong"></div>
+        <div><img src="img/langqian/nana(zhenren).jpg" alt="" id="nana"></div>
+        <div><img src="img/langqian/jiayouxiaozi(zhenren).jpg" alt="" id="jiayouxiaozi"></div>
+        <div><img src="img/langqian/bin(zhenren).jpg" alt="" id="bin"></div>
+        <div><img src="img/langqian/cob1(zhenren).jpg" alt="" id="cob"></div>
+        <div><img src="img/langqian/xiaojia(zhenren).jpg" alt="" id="xiaojia"></div>
+        <div><img src="img/langqian/panpan(zhenren).jpg" alt="" id="panpan"></div>
+    </div>
+</div>
+
+
+
+
+<div class="footer_box">
+    <div class="footer clearfix">
+        <div class="footer_img">
+            <ul>
+            <li>
+                <img src="img/self_qq_bottom_erweima.png">
+                <span>我的qq</span>
+            </li>
+            <li>
+                <img src="img/self_weixin_bottom_erweima.jpg">
+                <span>我的微信</span>
+            </li>
+        </ul>
+        </div>
+        <div class="footer_text">
+            <p><i>站点声明：</i></p>
+            
+        </div>
+    </div>
+
+</div>
+
+</body>
+
+</html>
